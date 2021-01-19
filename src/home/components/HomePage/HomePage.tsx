@@ -90,7 +90,7 @@ const HomePage: React.FC<HomePageProps> = props => {
           >
             <div className={classes.cardContainer}>
               <HomeAnalyticsCard
-                title={"Sales"}
+                title={"Ventas"}
                 icon={
                   <Sales
                     className={classes.icon}
@@ -106,7 +106,7 @@ const HomePage: React.FC<HomePageProps> = props => {
                 )}
               </HomeAnalyticsCard>
               <HomeAnalyticsCard
-                title={"Orders"}
+                title={"Ordenes"}
                 icon={
                   <Orders
                     className={classes.icon}

@@ -25,7 +25,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ user }) => {
             description: "header",
             id: "homeScreenHeader"
           },
-          { userName: user.email }
+          { userName: user.name }
         )}
       />
       <Card>
