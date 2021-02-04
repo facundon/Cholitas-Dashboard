@@ -122,7 +122,7 @@ const NewPasswordPage: React.FC<NewPasswordPageProps> = props => {
               type="submit"
             >
               <FormattedMessage
-                defaultMessage="Set new password"
+                defaultMessage="Elegir nueva contraseña"
                 description="button"
               />
             </Button>

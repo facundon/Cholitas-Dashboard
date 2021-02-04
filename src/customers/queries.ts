@@ -63,7 +63,7 @@ const customerDetails = gql`
   query CustomerDetails($id: ID!) {
     user(id: $id) {
       ...CustomerDetailsFragment
-      orders(last: 5) {
+      orders(first: 5) {
         edges {
           node {
             id

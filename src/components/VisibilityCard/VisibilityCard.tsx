@@ -180,7 +180,7 @@ export const VisibilityCard: React.FC<VisibilityCardProps> = props => {
         {!isPublished && (
           <DateVisibilitySelector
             buttonText={intl.formatMessage({
-              defaultMessage: "Set publication date"
+              defaultMessage: "Elegir fecha de publicación"
             })}
             onInputClose={() =>
               onChange({ target: { name: "publicationDate", value: null } })
@@ -260,7 +260,7 @@ export const VisibilityCard: React.FC<VisibilityCardProps> = props => {
                   error={!!getFieldError(errors, "startDate")}
                   disabled={disabled}
                   label={intl.formatMessage({
-                    defaultMessage: "Set available on",
+                    defaultMessage: "Disponible el:",
                     description: "available on date"
                   })}
                   name="availableForPurchase"
@@ -300,14 +300,14 @@ export const VisibilityCard: React.FC<VisibilityCardProps> = props => {
                     className={classNames(classes.label, classes.listingLabel)}
                   >
                     {intl.formatMessage({
-                      defaultMessage: "Show in product listings"
+                      defaultMessage: "Mostrar producto en los listados"
                     })}
                   </p>
 
                   <span className={classes.secondLabel}>
                     {intl.formatMessage({
                       defaultMessage:
-                        "Disabling this checkbox will remove product from search and category pages. It will be available on collection pages."
+                        "Desabilitar esta opcion hará desaparecer el producto de la página de 'búsqueda' y 'categorias'. Solo estara disponible en la pagina de 'colecciones'."
                     })}
                   </span>
                 </>

@@ -25,12 +25,12 @@ export const AvailabilityCard: React.FC<AvailabilityCardProps> = props => {
       messages={{
         ...props.messages,
         availableLabel: intl.formatMessage({
-          defaultMessage: "Available for purchase",
+          defaultMessage: "Disponible para comprar",
           description: "product availability"
         }),
         availableSecondLabel: intl.formatMessage(
           {
-            defaultMessage: "will become available on {date}",
+            defaultMessage: "va a estar dispoonible el {date}",
             description: "product available for purchase date"
           },
           {
@@ -38,11 +38,11 @@ export const AvailabilityCard: React.FC<AvailabilityCardProps> = props => {
           }
         ),
         setAvailabilityDateLabel: intl.formatMessage({
-          defaultMessage: "Set availability date",
+          defaultMessage: "Elegir fecha de disponibilidad",
           description: "product availability date label"
         }),
         unavailableLabel: intl.formatMessage({
-          defaultMessage: "Unavailable for purchase",
+          defaultMessage: "No disponible para comprar",
           description: "product unavailability"
         })
       }}

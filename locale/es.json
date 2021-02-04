@@ -1394,15 +1394,15 @@
     "string": "Configuración de Cuenta"
   },
   "src_dot_components_dot_AppStatus_dot_1624959454": {
-    "string": "If you want to disable this App please uncheck the box below."
+    "string": "Si quieres desabilitar el usuario sin eliminarlo."
   },
   "src_dot_components_dot_AppStatus_dot_1750277107": {
     "context": "section header",
-    "string": "App Status"
+    "string": "Estado del Usuario"
   },
   "src_dot_components_dot_AssignCategoryDialog_dot_3125506097": {
     "context": "dialog header",
-    "string": "Assign Category"
+    "string": "Asignar Categoria"
   },
   "src_dot_components_dot_AssignCategoryDialog_dot_3690273268": {
     "string": "Buscar por nombre de categoría, etc..."
@@ -1939,7 +1939,7 @@
     "string": "Configuración de envío"
   },
   "src_dot_configuration_dot_1742602794": {
-    "string": "Attributes and Product Types"
+    "string": "Atributos y Tipos de productos"
   },
   "src_dot_configuration_dot_3140151600": {
     "string": "Configuraciones de personal"
@@ -2726,7 +2726,7 @@
     "string": "Completada"
   },
   "src_dot_generalInformations": {
-    "string": "General Information"
+    "string": "Información General"
   },
   "src_dot_home": {
     "context": "home section name",
@@ -2736,7 +2736,7 @@
     "string": "El pedido #{orderId} fue realizado desde un borrador por {userEmail}"
   },
   "src_dot_home_dot_components_dot_HomeActivityCard_dot_draft_no_email": {
-    "string": "Order #{orderId} was placed from draft"
+    "string": "La orden #{orderId} fue realizada desde el borrador"
   },
   "src_dot_home_dot_components_dot_HomeActivityCard_dot_paid": {
     "string": "El pedido #{orderId} fue pagado completamente"
@@ -2745,7 +2745,7 @@
     "string": "El pedido #{orderId} fue realizado"
   },
   "src_dot_hooks_dot_3382262667": {
-    "string": "Variant {name} has been set as default."
+    "string": "La variante {name} se eligió como predeterminada."
   },
   "src_dot_lastName": {
     "string": "Apellido"
@@ -2793,7 +2793,7 @@
     "string": "{counter,plural,one {¿Estás seguro de que deseas cancelar esta orden?} other {¿Está seguro de que desea cancelar las {displayQuantity} ordenes?}}"
   },
   "src_dot_orders_dot_components_dot_OrderCancelDialog_dot_4059738695": {
-    "string": "Al cancelar este pedido, se liberarán las existencias sin entregar, por lo que pueden ser compradas por otros clientes.<b>El pedido no se reembolsará al cancelar el pedido: debe hacerlo manualmente.</b>¿Estás seguro de que deseas cancelar este pedido?"
+    "string": "Al cancelar este pedido, se liberarán las existencias sin entregar, por lo que pueden ser compradas por otros clientes.<b>El pedido no se reembolsará al cancelar el pedido: debe hacerlo manualmente. En caso que la orden se encuentre en estado de pago pendiente, el pago será cancelado</b>¿Estás seguro de que deseas cancelar este pedido?"
   },
   "src_dot_orders_dot_components_dot_OrderCannotCancelOrderDialog_dot_1561587911": {
     "context": "dialog header",
@@ -2856,20 +2856,20 @@
     "string": "Producto"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsProducts_dot_270371448": {
-    "string": "Product is out of stock"
+    "string": "Producto fuera de Stock"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsProducts_dot_2796503714": {
     "context": "quantity of ordered products",
     "string": "Cantidad"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsProducts_dot_2963336581": {
-    "string": "Product is unavailable to purchase"
+    "string": "Producto no disponible para la compra"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsProducts_dot_546865199": {
     "string": "No hay productos agregados al pedido"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsProducts_dot_59548500": {
-    "string": "Product is hidden"
+    "string": "El producto esta oculto"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsProducts_dot_878013594": {
     "context": "total price of ordered products",
@@ -2880,7 +2880,7 @@
     "string": "Añadir transportista"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsSummary_dot_3202709354": {
-    "string": "Impuestos (IGV incluido)"
+    "string": "Impuestos"
   },
   "src_dot_orders_dot_components_dot_OrderDraftDetailsSummary_dot_3594442178": {
     "string": "Transportistas no aplicables"
@@ -4040,7 +4040,7 @@
   },
   "src_dot_products_dot_components_dot_ProductCreatePage_dot_2232321263": {
     "context": "product publication date label",
-    "string": "will become published on {date}"
+    "string": "será publicado el {date}"
   },
   "src_dot_products_dot_components_dot_ProductCreatePage_dot_2341910657": {
     "context": "product label",
@@ -4059,85 +4059,85 @@
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_1004476569": {
     "context": "option",
-    "string": "Export stock for all warehouses"
+    "string": "Exportar stock para todos los locales"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_108342258": {
     "context": "button",
-    "string": "Load More"
+    "string": "Más"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_1547327218": {
     "context": "there are more elements of list that are hidden",
-    "string": "and {number} more"
+    "string": "y {number} más"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_1890035856": {
     "context": "informations about product organization, header",
-    "string": "Product Organization"
+    "string": "Organización de Productos"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2119710854": {
     "context": "informations about product seo, header",
-    "string": "SEO Information"
+    "string": "Información del SEO"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2167661409": {
     "context": "export selected products to csv file",
-    "string": "Selected products ({number})"
+    "string": "Productos seleccionados ({number})"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2318723509": {
     "context": "export products to csv file, choice field label",
-    "string": "Export information for:"
+    "string": "Exportar información para:"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2355065897": {
     "context": "export all products to csv file",
-    "string": "All products ({number})"
+    "string": "Todos los productos ({number})"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2474350154": {
     "context": "list of warehouses",
-    "string": "Warehouses A to Z"
+    "string": "Locales de la A a la Z"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2659464408": {
     "context": "product export to csv file, header",
-    "string": "Information exported"
+    "string": "Informacion Exportada"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2693217446": {
     "context": "export products as csv or spreadsheet file",
-    "string": "Export as:"
+    "string": "Exportar como:"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_2883720012": {
     "context": "export products to csv file, button",
-    "string": "export products"
+    "string": "exportar productos"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3012202273": {
     "context": "export products to csv file, dialog header",
-    "string": "Export Information"
+    "string": "Exportar Información"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3365843236": {
     "context": "product export to csv file, header",
-    "string": "Export Settings"
+    "string": "Exportar Opciones"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3443345452": {
     "context": "selectt all options",
-    "string": "Select All"
+    "string": "Seleccionar Todo"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3518309850": {
     "context": "export products as spreadsheet",
-    "string": "Spreadsheet for Excel, Numbers etc."
+    "string": "Hojas de Excel, Numeros etc."
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3599582104": {
-    "string": "Search Atrtibuttes"
+    "string": "Atributos de Búsqueda"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3902059658": {
-    "string": "Export Product Stock Quantity to CSV"
+    "string": "Exportar stock de Productos a CSV"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_3919525499": {
     "context": "informations about product stock, header",
-    "string": "Inventory Information"
+    "string": "Información del Inventario"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_4118932547": {
     "context": "export products as csv file",
-    "string": "Plain CSV file"
+    "string": "Archivo CSV"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_472026385": {
     "context": "select product informations to be exported",
-    "string": "Information exported:"
+    "string": "Información exportada:"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_524117994": {
     "context": "input helper text, search attributes",
@@ -4145,11 +4145,11 @@
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_700651641": {
     "context": "export filtered products to csv file",
-    "string": "Current search ({number})"
+    "string": "Búsqueda actual ({number})"
   },
   "src_dot_products_dot_components_dot_ProductExportDialog_dot_734825715": {
     "context": "informations about product prices etc, header",
-    "string": "Financial Information"
+    "string": "Informaciín Financiera"
   },
   "src_dot_products_dot_components_dot_ProductImageNavigation_dot_3060635772": {
     "context": "section header",
@@ -4189,7 +4189,7 @@
   },
   "src_dot_products_dot_components_dot_ProductListPage_dot_2059406063": {
     "context": "export products to csv file, button",
-    "string": "Export Products"
+    "string": "Exportar Productos"
   },
   "src_dot_products_dot_components_dot_ProductListPage_dot_3550330425": {
     "string": "Buscar Productos..."
@@ -4302,7 +4302,7 @@
     "string": "Peso"
   },
   "src_dot_products_dot_components_dot_ProductStocks_dot_2585918415": {
-    "string": "SKU (Stock Keeping Unit) (Unidad de mantenimiento de stock)"
+    "string": "SKU (Unidad de mantenimiento de stock)"
   },
   "src_dot_products_dot_components_dot_ProductStocks_dot_2622674857": {
     "context": "tabel column header",
@@ -4337,11 +4337,11 @@
   },
   "src_dot_products_dot_components_dot_ProductTaxes_dot_2771905943": {
     "context": "checkbox",
-    "string": "Override the product type's tax rate"
+    "string": "Sobrescribir el impuesto del tipo de producto"
   },
   "src_dot_products_dot_components_dot_ProductUpdatePage_dot_2232321263": {
     "context": "product publication date label",
-    "string": "will become published on {date}"
+    "string": "será publicado el {date}"
   },
   "src_dot_products_dot_components_dot_ProductUpdatePage_dot_2341910657": {
     "context": "product label",

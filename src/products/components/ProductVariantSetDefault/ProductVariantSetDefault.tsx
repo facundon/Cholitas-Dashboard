@@ -16,7 +16,7 @@ const ProductVariantSetDefault: React.FC<ProductVariantSetDefaultProps> = ({
       menuItems={[
         {
           label: intl.formatMessage({
-            defaultMessage: "Set as default",
+            defaultMessage: "Elegir como Predeterminado",
             description: "set variant as default, button"
           }),
           onSelect: onSetDefaultVariant,

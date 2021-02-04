@@ -38,7 +38,7 @@ export const ShippingZoneWarehouses: React.FC<ShippingZonewWarehousesProps> = pr
     <Card>
       <CardTitle
         title={intl.formatMessage({
-          defaultMessage: "Warehouse",
+          defaultMessage: "Local",
           description: "section header"
         })}
       />
@@ -46,7 +46,7 @@ export const ShippingZoneWarehouses: React.FC<ShippingZonewWarehousesProps> = pr
         <MultiAutocompleteSelectField
           add={{
             label: intl.formatMessage({
-              defaultMessage: "Add New Warehouse",
+              defaultMessage: "Agregar nuevo Local",
               description: "button"
             }),
             onClick: onWarehouseAdd
@@ -57,10 +57,10 @@ export const ShippingZoneWarehouses: React.FC<ShippingZonewWarehousesProps> = pr
           hasMore={hasMore}
           helperText={intl.formatMessage({
             defaultMessage:
-              "Select warehouse from which you will ship products for this shipping zone. This warehouse address will also be used to calculate taxes."
+              "Seleccionar local desde donde se enviaran los productos."
           })}
           label={intl.formatMessage({
-            defaultMessage: "Warehouse",
+            defaultMessage: "Local",
             description: "autocomplete select label",
             id: "shippingZoneWarehouses.autocomplete.label"
           })}
@@ -69,7 +69,7 @@ export const ShippingZoneWarehouses: React.FC<ShippingZonewWarehousesProps> = pr
           onChange={onChange}
           onFetchMore={onFetchMore}
           placeholder={intl.formatMessage({
-            defaultMessage: "Select Warehouse",
+            defaultMessage: "Elegir local",
             description: "input placeholder"
           })}
           value={data.warehouses}

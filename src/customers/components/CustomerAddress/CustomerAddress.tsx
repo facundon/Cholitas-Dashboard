@@ -88,14 +88,16 @@ const CustomerAddress: React.FC<CustomerAddressProps> = props => {
             menuItems={[
               {
                 label: intl.formatMessage({
-                  defaultMessage: "Set as default shipping address",
+                  defaultMessage:
+                    "Elegir como Domicilio de Envío predeterminado",
                   description: "button"
                 }),
                 onSelect: () => onSetAsDefault(AddressTypeEnum.SHIPPING)
               },
               {
                 label: intl.formatMessage({
-                  defaultMessage: "Set as default billing address",
+                  defaultMessage:
+                    "Elegir como Domicilio de Facturación predeterminado",
                   description: "button"
                 }),
                 onSelect: () => onSetAsDefault(AddressTypeEnum.BILLING)

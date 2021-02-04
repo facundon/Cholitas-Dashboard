@@ -90,7 +90,7 @@ const ProductVariantNavigation: React.FC<ProductVariantNavigationProps> = props 
     <Card>
       <CardTitle
         title={intl.formatMessage({
-          defaultMessage: "Variants",
+          defaultMessage: "Variantes",
           description: "section header"
         })}
       />
@@ -118,7 +118,7 @@ const ProductVariantNavigation: React.FC<ProductVariantNavigationProps> = props 
                   {isDefault && (
                     <span className={classes.defaultVariant}>
                       {intl.formatMessage({
-                        defaultMessage: "Default",
+                        defaultMessage: "Predeterminado",
                         description: "default product variant indicator"
                       })}
                     </span>
@@ -132,7 +132,7 @@ const ProductVariantNavigation: React.FC<ProductVariantNavigationProps> = props 
               <TableCell colSpan={3}>
                 <Button color="primary" onClick={onAdd}>
                   <FormattedMessage
-                    defaultMessage="Add variant"
+                    defaultMessage="Agregar variante"
                     description="button"
                   />
                 </Button>

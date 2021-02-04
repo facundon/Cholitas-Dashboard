@@ -102,7 +102,7 @@ const SiteSettingsKeyDialog: React.FC<SiteSettingsKeyDialogProps> = ({
               </Button>
               <Button color="primary" type="submit" variant="contained">
                 <FormattedMessage
-                  defaultMessage="Add authentication"
+                  defaultMessage="Agregar autenticación"
                   description="button"
                 />
               </Button>

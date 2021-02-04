@@ -73,7 +73,7 @@ const VoucherDates = ({
         <ControlledCheckbox
           checked={data.hasEndDate}
           label={intl.formatMessage({
-            defaultMessage: "Set end date",
+            defaultMessage: "Fecha de Finalización",
             description: "voucher end date, switch button"
           })}
           name={"hasEndDate" as keyof VoucherDetailsPageFormData}

@@ -47,7 +47,7 @@ const SiteSettingsKeys: React.FC<SiteSettingsKeysProps> = props => {
     <Card>
       <CardTitle
         title={intl.formatMessage({
-          defaultMessage: "Authentication Keys",
+          defaultMessage: "Llaves de Autenticación",
           description: "section header"
         })}
         toolbar={
@@ -57,7 +57,10 @@ const SiteSettingsKeys: React.FC<SiteSettingsKeysProps> = props => {
             variant="text"
             onClick={onAdd}
           >
-            <FormattedMessage defaultMessage="Add key" description="button" />
+            <FormattedMessage
+              defaultMessage="Agregar Llave"
+              description="button"
+            />
           </Button>
         }
       />
@@ -66,14 +69,14 @@ const SiteSettingsKeys: React.FC<SiteSettingsKeysProps> = props => {
           <TableRow>
             <TableCell>
               <FormattedMessage
-                defaultMessage="Authentication Type"
-                description="authentication provider name"
+                defaultMessage="Tipo de Autenticación"
+                description="nombre del proveedor"
               />
             </TableCell>
             <TableCell>
               <FormattedMessage
-                defaultMessage="Key"
-                description="authentication provider API key"
+                defaultMessage="Llave"
+                description="llave de la API del proveedor"
               />
             </TableCell>
             <TableCell />
@@ -104,8 +107,8 @@ const SiteSettingsKeys: React.FC<SiteSettingsKeysProps> = props => {
               <TableRow>
                 <TableCell colSpan={3}>
                   <FormattedMessage
-                    defaultMessage="No keys"
-                    description="no authentication provider API keys"
+                    defaultMessage="No hay Llaves"
+                    description="no hay llaves de la API del proveedor"
                   />
                 </TableCell>
               </TableRow>
