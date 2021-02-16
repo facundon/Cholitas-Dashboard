@@ -10,6 +10,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 interface HomeScreenProps {
   user: {
     email: string;
+    name?: string;
   };
 }
 
